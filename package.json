@@ -6,6 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
+    "postinstall": "npm rebuild @swc/core --unsafe-perm || true",
     "build": "strapi build",
     "strapi": "strapi",
     "deploy": "strapi deploy"
